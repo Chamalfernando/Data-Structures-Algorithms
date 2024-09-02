@@ -1,0 +1,9 @@
+Data Structure - A named location that can be used to store and organize data.
+Ex : Array(Contiguous Memory Locations), LinkedLists
+
+Algorithm - Collection of steps to solve a problem.
+Ex : Linear Search
+
+Why learning -
+write time and memory efficient code.
+commonly asked question involves these.
