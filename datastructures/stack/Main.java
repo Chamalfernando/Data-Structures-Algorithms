@@ -1,19 +1,24 @@
-package A_Introduction.Stack;
+package datastructures.stack;
 
 import java.util.Stack;
+import java.util.logging.Logger;
 
 public class Main {
     public static void main(String[] args) {
+
+        Logger logger = Logger.getLogger(Main.class.getName());
+
         /*
-         *
          * Stack - LIFO data structure. stores objects into a sort of
          * "vertical tower"
          * push() to add to the top
          * pop() to remove from the top
+         *
          * */
 
         Stack<String> stack = new Stack<String>();
-//        System.out.println(stack.empty());
+        System.out.println(stack.empty());
+        logger.info(String.valueOf(stack.empty()));
 
         stack.push("Minecraft");
         stack.push("Skyrim");
@@ -48,9 +53,9 @@ public class Main {
 
 
         // this will give an outofMemory Error. Java heap space.
-//        for (int i = 0; i < 1000000000; i++) {
-//            stack.push("Fallout76");
-//        }
+        //        for (int i = 0; i < 1000000000; i++) {
+        //            stack.push("Fallout76");
+        //        }
 
 
         // USES OF STACK

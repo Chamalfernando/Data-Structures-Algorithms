@@ -1,2 +1,2 @@
 # Data-Structures-Algorithms
-Data Structures and Algorithm practices
+Data Structures and Algorithm practices using Java.
